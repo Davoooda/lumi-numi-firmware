@@ -1,0 +1,39 @@
+{
+ "board": "smallwatch",
+ "version": "1.0.35",
+ "chip": "ESP32-S3",
+ "update": [
+  {
+   "path": "app.bin",
+   "offset": "0x20000"
+  }
+ ],
+ "erase": [
+  {
+   "offset": "0xf000",
+   "size": "0x2000"
+  }
+ ],
+ "full": [
+  {
+   "path": "bootloader.bin",
+   "offset": "0x0"
+  },
+  {
+   "path": "partition-table.bin",
+   "offset": "0x8000"
+  },
+  {
+   "path": "app.bin",
+   "offset": "0x20000"
+  },
+  {
+   "path": "srmodels.bin",
+   "offset": "0x720000"
+  },
+  {
+   "path": "storage.bin",
+   "offset": "0x820000"
+  }
+ ]
+}
