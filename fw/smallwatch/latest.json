@@ -1,6 +1,6 @@
 {
  "board": "smallwatch",
- "version": "1.0.35",
+ "version": "1.0.36",
  "chip": "ESP32-S3",
  "update": [
   {
