@@ -1,0 +1,9 @@
+{
+ "board": "probe",
+ "chip": "ESP32-P4",
+ "full": [
+  { "path": "bootloader.bin", "offset": "0x2000" },
+  { "path": "partition-table.bin", "offset": "0x8000" },
+  { "path": "probe.bin", "offset": "0x10000" }
+ ]
+}
